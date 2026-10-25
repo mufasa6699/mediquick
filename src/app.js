@@ -3,6 +3,7 @@ const path = require('path');
 
 const app = express();
 app.use(express.json());
+app.use('/api/auth', require('./routes/login'));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.get('/api/health', (req, res) => {
