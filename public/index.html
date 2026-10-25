@@ -21,6 +21,21 @@
       <p id="search-status" class="muted"></p>
       <ul id="results" class="results"></ul>
     </section>
+    <section id="cart">
+      <h2>Your cart</h2>
+      <ul id="cart-items" class="results"></ul>
+      <p id="cart-total" class="muted">Cart is empty</p>
+      <form id="checkout-form">
+        <label>Payment method
+          <select id="payment-method">
+            <option value="COD">Cash on Delivery</option>
+            <option value="Card">Card</option>
+          </select>
+        </label>
+        <button type="submit">Checkout</button>
+      </form>
+      <p id="checkout-status" class="muted"></p>
+    </section>
   </main>
   <script src="app.js"></script>
 </body>
