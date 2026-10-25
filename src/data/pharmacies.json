@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "City Care Pharmacy", "city": "Faisalabad", "licensed": true },
+  { "id": 2, "name": "HealthPlus Medicos", "city": "Chiniot", "licensed": true }
+]

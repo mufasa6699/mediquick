@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Panadol 500mg", "category": "Pain relief", "price": 120, "stock": 50, "prescriptionRequired": false, "pharmacyId": 1 },
+  { "id": 2, "name": "Augmentin 625mg", "category": "Antibiotic", "price": 450, "stock": 20, "prescriptionRequired": true, "pharmacyId": 1 },
+  { "id": 3, "name": "Brufen 400mg", "category": "Pain relief", "price": 95, "stock": 0, "prescriptionRequired": false, "pharmacyId": 2 },
+  { "id": 4, "name": "Glucophage 500mg", "category": "Diabetes", "price": 180, "stock": 35, "prescriptionRequired": true, "pharmacyId": 2 },
+  { "id": 5, "name": "Cetirizine 10mg", "category": "Allergy", "price": 60, "stock": 100, "prescriptionRequired": false, "pharmacyId": 1 }
+]
