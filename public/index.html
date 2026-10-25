@@ -12,7 +12,15 @@
     <p>Online Pharmacy &amp; Medicine Delivery</p>
   </header>
   <main id="app">
-    <p>Welcome to MediQuick. Features will appear here as they are implemented.</p>
+    <section id="search">
+      <h2>Search medicines</h2>
+      <form id="search-form">
+        <input id="search-input" type="search" placeholder="Medicine name or category, e.g. Panadol" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <p id="search-status" class="muted"></p>
+      <ul id="results" class="results"></ul>
+    </section>
   </main>
   <script src="app.js"></script>
 </body>
